@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Seeking Website</title>
+    <title>Login</title>
     <!---- font awesome ---->
     <script src="https://kit.fontawesome.com/319d52fc9f.js" crossorigin="anonymous"></script>
     <!---- bootstrap ---->
@@ -43,10 +43,8 @@
                             <li class="nav-item">
                                 <a class="nav-link fw-bold mx-3" href="#">About</a>
                             </li>
-                            <a href="../login/login.html"><button class="mb-2 mb-lg-0 btn btn-outline-success mx-2 px-4"
-                                    type="submit">Sign in</button></a>
-                            <a href=""><button class="btn btn-outline-success mx-2 px-4" type="submit">Sign
-                                    up</button></a>
+                                <a href="../login/login.html"><button class="mb-2 mb-lg-0 btn btn-outline-success mx-2 px-4" type="submit">Sign in</button></a>
+                                <a href="../login/seeker_register.html"><button class="btn btn-outline-success mx-2 px-4" type="submit">Sign up</button></a>
                         </ul>
                     </div>
                 </div>
@@ -73,6 +71,7 @@
                         </ul>
                     </div>
                     <div class="tab-content" id="myTabContent">
+                        <!---------------------- seeker login ---------------->
                         <div class="tab-pane fade show active  rounded shadow-lg px-5" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <form>
                                 <div class="mb-3">
@@ -86,8 +85,9 @@
                                 <button type="submit" class="btn btn-primary mb-3">Submit</button>
                               </form>
                               <a href="">Forget password?</a>
-                              <p class="mt-3 pb-5">Not have an account? <a href="">Register Now</a></p>
+                              <p class="mt-3 pb-5">Not have an account? <a href="../login/seeker_register.html">Register Now</a></p>
                         </div>
+                        <!-- ------------------Employer login----------------------- -->
                         <div class="tab-pane fade rounded shadow-lg px-5" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                             <form>
                                 <div class="mb-3">
@@ -101,7 +101,7 @@
                                 <button type="submit" class="btn btn-primary mb-3">Submit</button>
                               </form>
                               <a href="">Forget password?</a>
-                              <p class="mt-3 pb-5">Not have an account? <a href="">Register Now</a></p>
+                              <p class="mt-3 pb-5">Not have an account? <a href="../login/employee_register.html">Register Now</a></p>
                         </div>
                     </div>
                 </div>
